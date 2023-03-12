@@ -144,3 +144,31 @@ html{
     display: block;
     text-align: center;
 }
+
+/* card 5 */
+
+.card5-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cssBayan:hover > .card5-item > .card5-title > .icons > .check-icon {
+    display: block;
+}
+.cssBayan:hover > .card5-item > .card5-title > .icons > .hide-icon {
+    display: none;
+}
+.card5-item:hover > .card5-title > .icons > .check-icon {
+    display: none;
+}
+.card5-item:hover > .card5-title > .icons > .hide-icon {
+    display: block;
+} 
+.card5-item:hover .memes {
+    display: block;
+    text-align: center;
+}
+.card5-item:focus-within .memes{
+    display: block;
+    text-align: center;
+}
