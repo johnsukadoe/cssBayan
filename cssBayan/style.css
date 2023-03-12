@@ -115,3 +115,32 @@ html{
     display: block;
     text-align: center;
 }
+
+/* card 4 */
+
+.card4-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cssBayan:hover > .card4-item > .card4-title > .icons > .check-icon {
+    display: block;
+}
+.cssBayan:hover > .card4-item > .card4-title > .icons > .hide-icon {
+    display: none;
+}
+.card4-item:hover > .card4-title > .icons > .check-icon {
+    display: none;
+}
+.card4-item:hover > .card4-title > .icons > .hide-icon {
+    display: block;
+} 
+
+.card4-item:hover .memes {
+    display: block;
+    text-align: center;
+}
+.card4-item:focus-within .memes{
+    display: block;
+    text-align: center;
+}
