@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: 'Tilt Warp', cursive;
+    color:blue
+}
+/*header text*/
+.cssBayan{
+    max-width:800px;
+    margin:0 auto;
+}
+.cssBayan:hover{
+    color:black;
+}
+
+
+.memes{
+    display: none;
+}
+.hide-icon, .check-icon{
+    display: none;
+}
+.memes img{
+    max-width: 400px;
+}
+
+/* card 1 */
+.card1-title{
+    display: flex;
+    justify-content: space-between;
+}
+.cssBayan:hover > .card1-item > .card1-title > .icons > .check-icon {
+    display: block;
+}
+.cssBayan:hover > .card1-item > .card1-title > .icons > .hide-icon {
+    display: none;
+}
+.card1-item:hover > .card1-title > .icons > .hide-icon {
+    display: block;
+}
+.card1-item:hover > .card1-title > .icons > .check-icon {
+    display: none;
+}
+
+.card1-item:hover .memes {
+    display: block;
+    text-align: center;
+}
+.card1-item:focus-within .memes{
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+/* card 2 */
+.card2-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cssBayan:hover > .card2-item > .card2-title > .icons > .check-icon {
+    display: block;
+}
+.cssBayan:hover > .card2-item > .card2-title > .icons > .hide-icon {
+    display: none;
+}
+.card2-item:hover > .card2-title > .icons > .check-icon {
+    display: none;
+}
+.card2-item:hover > .card2-title > .icons > .hide-icon {
+    display: block;
+} 
+
+.card2-item:hover .memes {
+    display: block;
+    text-align: center;
+}
+.card2-item:focus-within .memes{
+    display: block;
+    text-align: center;
+}
