@@ -58,7 +58,7 @@ html{
 
 
 
-/* card 2 */
+/* card 3 */
 .card2-title{
     display: flex;
     justify-content: space-between;
@@ -82,6 +82,36 @@ html{
     text-align: center;
 }
 .card2-item:focus-within .memes{
+    display: block;
+    text-align: center;
+}
+
+
+/* card 3 */
+
+.card3-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cssBayan:hover > .card3-item > .card3-title > .icons > .check-icon {
+    display: block;
+}
+.cssBayan:hover > .card3-item > .card3-title > .icons > .hide-icon {
+    display: none;
+}
+.card3-item:hover > .card3-title > .icons > .check-icon {
+    display: none;
+}
+.card3-item:hover > .card3-title > .icons > .hide-icon {
+    display: block;
+} 
+
+.card3-item:hover .memes {
+    display: block;
+    text-align: center;
+}
+.card3-item:focus-within .memes{
     display: block;
     text-align: center;
 }
